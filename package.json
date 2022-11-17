@@ -1,0 +1,33 @@
+{
+	"name": "crud-back",
+	"version": "1.0.0",
+	"description": "Back-End side of my CRUD",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node ./src/app.js",
+		"dev": "nodemon ./src/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/uriel200201/crud-back.git"
+	},
+	"keywords": [
+		"CRUD",
+		"FullStack"
+	],
+	"author": "Uriel Jardel",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/uriel200201/crud-back/issues"
+	},
+	"homepage": "https://github.com/uriel200201/crud-back#readme",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongoose": "^6.7.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
